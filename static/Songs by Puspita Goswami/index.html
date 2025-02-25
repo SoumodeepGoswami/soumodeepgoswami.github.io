@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+
+    <div class="playlists">
+        <h3>Spotify Playlists</h1>
+        <div id="playlists">
+            <!-- Playlists will be added dynamically -->
+        </div>
+    </div>
+
+    <div class="library">
+        <h3>Your Library</h3>
+        <ul id="song-list">
+            <!-- Songs will be added dynamically -->
+        </ul>
+    </div>
+
+    <div class="player">
+        <p id="now-playing" class="player_element">Select a song</p>
+        <audio id="audio-player" class="player_element" controls></audio>
+        <div class="controls player_element">
+            <button id="prev">⏮️</button>
+            <button id="play-pause">▶️</button>
+            <button id="next">⏭️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

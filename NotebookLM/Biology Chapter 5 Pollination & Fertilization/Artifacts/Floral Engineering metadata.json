@@ -1,0 +1,18 @@
+{
+  "title": "Floral Engineering",
+  "type": "ARTIFACT_TYPE_SLIDES",
+  "sources": [{
+    "sourceId": {
+      "id": "fe25fa99-88b8-42f6-9706-146b6b2d9adf"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "slides": {
+    "generationOptions": {
+      "languageCode": "en",
+      "deckType": "DECK_TYPE_READING",
+      "length": "SLIDE_DECK_LENGTH_DYNAMIC"
+    },
+    "title": "Floral Engineering"
+  }
+}

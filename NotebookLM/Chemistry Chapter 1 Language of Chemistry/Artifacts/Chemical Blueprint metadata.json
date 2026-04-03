@@ -1,0 +1,18 @@
+{
+  "title": "Chemical Blueprint",
+  "type": "ARTIFACT_TYPE_SLIDES",
+  "sources": [{
+    "sourceId": {
+      "id": "60a553c1-382a-4d7f-9476-8c00f2f73638"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "slides": {
+    "generationOptions": {
+      "languageCode": "en",
+      "deckType": "DECK_TYPE_READING",
+      "length": "SLIDE_DECK_LENGTH_DYNAMIC"
+    },
+    "title": "Chemical Blueprint"
+  }
+}

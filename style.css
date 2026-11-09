@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.library {
+    width: 100%;
+    background-color: #111;
+    padding: 20px;
+    height: 100%;
+}
+
+.library ul {
+    list-style: none;
+    padding: 0;
+}
+
+.library button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    margin: 1em 2em;
+    width: auto;
+}
+
+.playlists {
+    width: 80%;
+    padding: 20px;
+}
+
+#playlists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playlist {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    margin: 1em 2em;
+    width: auto;
+    text-align: center;
+}
+
+.player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Media Query for screens smaller than 756px */
+@media (max-width: 756px) {
+    .player {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;    /* Center horizontally */
+        justify-content: center; /* Center vertically */
+    }
+
+    .controls button {
+        margin: 5px 0; /* Add some margin for spacing between buttons */
+    }
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+h3{
+    text-align: center;
+}
